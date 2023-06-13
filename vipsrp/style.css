@@ -1,0 +1,276 @@
+body {
+    /* background-color: #000000;*/
+    background: rgb(0, 0, 0) url("img/orca-gaming-logo-dark.png") fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+header {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 2%;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 2%;
+}
+
+.subtitle {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 1%;
+}
+
+.row {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+
+div.discounts {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    /* center */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 50%;
+}
+
+.footer {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.35em;
+    color: rgb(182, 182, 182);
+    padding-top: 2%;
+}
+
+div#lunaria {
+    background: url("img/lunaria.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+div#solaris {
+    background: url("img/solaris.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+th#lunaria {
+    background-color: rgb(255, 156, 251);
+    color: black;
+}
+
+th#solaris {
+    background-color: rgb(255, 215, 0);
+    color: black;
+}
+
+/* #rules-footer:before {
+    content: ">";
+} */
+
+ul {
+    list-style: none;
+}
+
+li.tick {
+    background: url("img/tick3.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.cross {
+    background: url("img/cross.png") no-repeat -1px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.warn {
+    background: url("img/warn.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.stop {
+    background: url("img/dnd.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.info {
+    background: url("img/info.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.plus {
+    background: url("img/plus.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+#desempleado { color: rgb(132, 172, 206) }
+#ciudadano { color: rgb(115, 147, 126) }
+#basurero { color: rgb(255, 197, 110) }
+#chef { color: rgb(232, 145, 46) }
+#vagabundo { color: rgb(177, 63, 63) }
+#destilador { color: rgb(184, 9, 155) }
+#druida { color: rgb(199, 35, 51) }
+#policia { color: rgb(72, 69, 255) }
+#medico { color: rgb(103, 162, 159) }
+#gerente-casino { color: rgb(242, 255, 0) }
+#vendedor-armas { color: rgb(134, 123, 129) }
+#bombero { color: rgb(199, 12, 46) }
+#presidente { color: rgb(255, 0, 85) }
+#unidadmedica { color: rgb(0, 140, 156) }
+#bandit { color: rgb(242, 255, 0) }
+#berserker { color: rgb(242, 255, 0) }
+#cryo { color: rgb(124, 197, 216) }
+#sicario { color: rgb(96, 100, 151) }
+#yakuza { color: rgb(33, 186, 237) }
+#yonqui { color: rgb(110, 110, 110) }
+#mercenario { color: rgb(230, 69, 16) }
+#leniador { color: rgb(102, 46, 0) }
+#ambulante { color: rgb(132, 226, 150) }
+#agricultor { color: rgb(60, 137, 109) }
+#crystal { color: rgb(33, 186, 237) }
+#spotter { color: rgb(230, 69, 16) }
+#petrolero { color: rgb(0, 238, 0) }
+
+table {
+    margin: 30px;
+}
+
+table.jobs {
+    /* Center */
+    margin-left: auto;
+    margin-right: auto;
+    /* Border */
+    border-collapse: collapse;
+    border: 1px solid rgb(255, 255, 255);
+    /* Font */
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    /* Table */
+    width: 75%;
+}
+
+table td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px;
+    text-align: center;
+    width: 25%;
+}
+
+table th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.1em;
+    text-align: center;
+}
+
+.span-yellow {
+    color: rgb(255, 255, 0);
+}
+
+.span-aqua {
+    color: rgb(0, 119, 255);
+}
+
+.span-green {
+    color: rgb(0, 238, 0);
+}
+
+.span-red {
+    color: rgb(175, 0, 0);
+}
+
+.span-grey {
+    color: rgb(182, 182, 182);
+}
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    color: white;
+    font-size: 0.8em;
+    background-color: #192733;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+}
+
+.hover-text:hover .tooltip-text {
+    visibility: visible;
+}
+
+#top {
+    top: -80px;
+    left: -20px;
+}
+
+#bottom {
+    top: 25px;
+    left: -50%;
+}
+
+#left {
+    top: -8px;
+    right: 120%;
+}
+
+#right {
+    top: -8px;
+    left: 120%;
+}
+
+.hover-text {
+    position: relative;
+    display: inline-block;
+    /* margin: 40px; */
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}

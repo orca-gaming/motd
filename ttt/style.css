@@ -1,0 +1,189 @@
+body {
+    /* background-color: #000000;*/
+    background: rgb(0, 0, 0) url("img/orca-gaming-logo-dark.png") fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header {
+    /* font: "Trebuchet MS", Tahoma, Arial, sans-serif; */
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 2%;
+}
+
+.subtitle {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 1%;
+}
+
+.row {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.footer {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.rules-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.35em;
+    color: rgb(182, 182, 182);
+    padding-top: 2%;
+}
+
+#rules-all {
+    background: url("img/logo-icon.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+#rules-innocent {
+    background: url("img/inno.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+#rules-traitor {
+    background: url("img/traitor.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+#rules-detective {
+    background: url("img/det.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+/* #rules-all:before {
+    content: "🐬"
+}
+
+#rules-innocent:before {
+    content: "🟢"
+}
+
+#rules-traitor:before {
+    content: "🔴"
+}
+
+#rules-detective:before {
+    content: "🔵"
+} */
+
+#rules-footer:before {
+    content: ">";
+}
+
+ul {
+    list-style: none;
+}
+
+li.tick {
+    background: url("img/tick3.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.cross {
+    background: url("img/cross.png") no-repeat -1px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.warn {
+    background: url("img/warn.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.stop {
+    background: url("img/dnd.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.info {
+    background: url("img/info.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+/* li.tick:before {
+    content: "✅";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+} */
+/* 
+li.cross:before {
+    content: "❌";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+
+li.warn:before {
+    content: "⚠️";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+
+li.stop:before {
+    content: "🛑";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+
+li.info:before {
+    content: "🔹";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+} */
+
+.span-yellow {
+    color: rgb(255, 255, 0);
+}
+
+.span-aqua {
+    color: rgb(0, 119, 255);
+}
+
+.span-green {
+    color: rgb(0, 238, 0);
+}
+
+.span-red {
+    color: rgb(175, 0, 0);
+}

@@ -1,0 +1,162 @@
+body {
+    /* background-color: #000000;*/
+    background: rgb(0, 0, 0) url("img/orca-gaming-logo-dark.png") fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 2%;
+}
+
+.subtitle {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    padding-top: 1%;
+}
+
+.row {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.footer {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.rules-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.35em;
+    color: rgb(182, 182, 182);
+    padding-top: 2%;
+}
+
+#rules-all {
+    background: url("img/logo-icon.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+#rules-innocent {
+    background: url("img/inno.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+#rules-traitor {
+    background: url("img/traitor.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+#rules-detective {
+    background: url("img/det.png") no-repeat 8px bottom;
+    padding-left: 1.8em;
+}
+
+/* #rules-footer:before {
+    content: ">";
+} */
+
+ul {
+    list-style: none;
+}
+
+li.tick {
+    background: url("img/tick3.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.cross {
+    background: url("img/cross.png") no-repeat -1px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.warn {
+    background: url("img/warn.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+li.stop {
+    background: url("img/dnd.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+div#desempleado { color: rgb(132, 172, 206) }
+div#ciudadano { color: rgb(115, 147, 126) }
+div#basurero { color: rgb(255, 197, 110) }
+div#chef { color: rgb(232, 145, 46) }
+div#vagabundo { color: rgb(177, 63, 63) }
+div#destilador { color: rgb(184, 9, 155) }
+div#druida { color: rgb(199, 35, 51) }
+div#medico { color: rgb(103, 162, 159) }
+div#gerente-casino { color: rgb(242, 255, 0) }
+div#vendedor-armas { color: rgb(134, 123, 129) }
+div#bombero { color: rgb(199, 12, 46) }
+div#presidente { color: rgb(255, 0, 85) }
+div#unidadmedica { color: rgb(0, 140, 156) }
+div#bandit { color: rgb(242, 255, 0) }
+div#berserker { color: rgb(145, 0, 12) }
+div#cryo { color: rgb(124, 197, 216) }
+div#sicario { color: rgb(96, 100, 151) }
+div#yakuza { color: rgb(33, 186, 237) }
+div#cryo { color: rgb(42, 186, 237) }
+div#druida { color: rgb(150, 26, 38) }
+
+li.info {
+    background: url("img/info.png") no-repeat -2px top;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+    font-size: 0.85em;
+}
+
+.span-yellow {
+    color: rgb(255, 255, 0);
+}
+
+.span-aqua {
+    color: rgb(0, 119, 255);
+}
+
+.span-green {
+    color: rgb(0, 238, 0);
+}
+
+.span-red {
+    color: rgb(175, 0, 0);
+}
+
+.span-grey {
+    color: rgb(182, 182, 182);
+}
